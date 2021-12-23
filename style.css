@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    color: gray;
+    box-sizing: border-box;
+}
+
+.game {
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards {
+    margin: 1rem;
+    width: 20%;
+    height: 35vh;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px lightgray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    background: linear-gradient(0deg, rgba(92,248,255,1) 3%, rgba(177,227,255,1) 37%, rgb(255, 209, 249) 100%);
+}
+
+button {
+    display: none;
+}
