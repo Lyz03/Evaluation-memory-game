@@ -33,7 +33,7 @@ const Cards = function (gameBoard, symbolArray, cssClassName, winMessage, resetB
         // click event, show symbole
         div.addEventListener("click", function () {
             this.innerText = this.dataset.symbol;
-            this.style.background = "white"
+            this.style.background = "white";
             a++
             if (a === 2) {
                 a = 0;

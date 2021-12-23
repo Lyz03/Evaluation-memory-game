@@ -4,6 +4,17 @@ body {
     box-sizing: border-box;
 }
 
+h1, p {
+    text-align: center;
+}
+
+button {
+    border: none;
+    background-color: #c5e0e5;
+    padding: 0.3rem 1rem;
+    color: white;
+}
+
 .game {
     margin: 2rem auto;
     display: flex;
@@ -12,9 +23,9 @@ body {
 }
 
 .cards {
-    margin: 1rem;
-    width: 20%;
-    height: 35vh;
+    margin: 0.5rem;
+    width: 20vh;
+    height: 25vh;
     border-radius: 20px;
     box-shadow: 4px 4px 8px lightgray;
     text-align: center;
@@ -27,4 +38,14 @@ body {
 
 button {
     display: none;
+}
+
+/*
+ * responsive
+ */
+@media screen and (max-width: 550px){
+    .cards {
+        width: 15vh;
+        height: 20vh;
+    }
 }
